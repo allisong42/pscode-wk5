@@ -1,0 +1,66 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+declare firstValue
+declare secondValue
+declare sumValue
+
+scan firstValue
+scan secondValue
+sumValue = firstValue + secondValue
+print sumValue
+
+
+
+
+
+// Exercise 2: Check if a Number is Even or Odd
+
+declare inputValue
+scan inputValue
+
+if (inputValue % 2 == 0)
+print "The number is even"
+
+else
+print "The number is odd"
+
+
+
+
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+
+declare valuesArray = [firstValue, secondValue, thirdValue, fourthValue, fifthValue]
+declare sumValue
+declare averageValue
+declare minimumValue
+declare maximumValue
+
+scan firstValue
+scan secondValue
+scan thirdValue
+scan fourthValue
+scan fifthValue
+
+sumValue = sum(valuesArray)
+averageValue = sumValue / 5
+
+for each value
+
+	if (value <= firstValue && <= secondValue  && <= thirdValue && <= fourthValue && <= fifthValue)
+	minimumValue = value
+
+	else if (value >= firstValue && >= secondValue  && >= thirdValue && >= fourthValue && >= fifthValue)
+	maxmimumValue = value
+
+
+print "The average value is " averageValue ". "
+print "The minimum value is " minimumValue ". "
+print "The maximum value is " maximumValue "."
